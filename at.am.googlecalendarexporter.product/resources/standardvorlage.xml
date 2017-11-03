@@ -1,0 +1,14 @@
+<template>
+<titel>Dies ist die Überschrift</titel>
+<beschreibung>
+Hier ist ein Text,
+der geht über zwei Zeilen
+</beschreibung>
+<termine>
+<termin><datum format="EE'	' dd.MM.yyyy">	</datum><startzeit format="HH.mm">	</startzeit><endzeit format="HH.mm">	</endzeit><name>
+</name></termin>
+</termine>
+<ende>
+Hier ist wieder ein Text am Ende
+</ende>
+</template>

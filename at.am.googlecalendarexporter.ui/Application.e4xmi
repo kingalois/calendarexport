@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmi:id="_z5mhsEONEeWe9J82GmjBWw" elementId="org.eclipse.e4.ide.application" bindingContexts="_z5mhuUONEeWe9J82GmjBWw">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_z5mhsUONEeWe9J82GmjBWw" label="Google Kalender Export" x="100" y="100" width="600" height="800">
+    <children xsi:type="basic:Part" xmi:id="_Rbw_EEOOEeWe9J82GmjBWw" elementId="at.am.googlecalendartotext.gui.part.mainpart" contributionURI="bundleclass://at.am.googlecalendarexporter.ui/at.am.googlecalendartotext.gui.MainPart" label="MainPart"/>
+  </children>
+  <rootContext xmi:id="_z5mhuUONEeWe9J82GmjBWw" elementId="org.eclipse.ui.contexts.dialogAndWindow" name="In Dialog and Windows">
+    <children xmi:id="_z5mhukONEeWe9J82GmjBWw" elementId="org.eclipse.ui.contexts.window" name="In Windows"/>
+    <children xmi:id="_z5mhu0ONEeWe9J82GmjBWw" elementId="org.eclipse.ui.contexts.dialog" name="In Dialogs"/>
+  </rootContext>
+  <addons xmi:id="_z5mhskONEeWe9J82GmjBWw" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
+  <addons xmi:id="_z5mhs0ONEeWe9J82GmjBWw" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
+  <addons xmi:id="_z5mhtEONEeWe9J82GmjBWw" elementId="org.eclipse.e4.ui.bindings.service" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>
+  <addons xmi:id="_z5mhtUONEeWe9J82GmjBWw" elementId="org.eclipse.e4.ui.workbench.commands.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.CommandProcessingAddon"/>
+  <addons xmi:id="_z5mhtkONEeWe9J82GmjBWw" elementId="org.eclipse.e4.ui.workbench.handler.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
+  <addons xmi:id="_z5mht0ONEeWe9J82GmjBWw" elementId="org.eclipse.e4.ui.workbench.contexts.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.ContextProcessingAddon"/>
+  <addons xmi:id="_z5mhuEONEeWe9J82GmjBWw" elementId="org.eclipse.e4.ui.workbench.bindings.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.swt/org.eclipse.e4.ui.workbench.swt.util.BindingProcessingAddon"/>
+</application:Application>
